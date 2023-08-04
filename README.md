@@ -8,7 +8,9 @@
 这部分该部分由小组中的潘浩洋同学完成，
 
 ## project2  
+
 ## project3  
+
 ## project4  
 该部分由小组成员崔若锦完成  
 实验设备：  
@@ -53,6 +55,7 @@ SM3算法采用Merkle-Damgard结构，在处理消息时，首先将消息进行
 ### 运行结果：  
 ![protect5.png](https://s2.loli.net/2023/08/04/HAjhU7gcBSpNxzb.png)
 给定message="Hello!This is Yanji123.I'm writing a merkle tree!"，可以得到一个正确的Merkle Tree.
+
 ## project8  
 ### AES
 AES（Advanced Encryption Standard）高级加密标准是一种对称密钥加密算法，它是目前广泛使用的加密算法之一。AES于2001年由比利时密码学家Joan Daemen和Vincent Rijmen设计，并由美国国家标准与技术研究院（NIST）于2001年发布为FIPS（Federal Information Processing Standards）标准。  
@@ -87,10 +90,36 @@ c = a XOR b = {0xBB, 0x99, 0xFF, ..., 0x77, 0x77}
 ### 运行结果：
 运行过程中了解到，在VS中虽然有相对应的ARM的头文件，但是并不能正常运行，与同学沟通后，使用ARM64 msvc编译器尝试编译，在设置好配置管理器后，运行结果如下，成功编译。
 ![project8.png](https://s2.loli.net/2023/08/04/oLI1nE4XbPSwRK3.png)
+
 ## project9  
+
+## project10  
+该部分由小组成员崔若锦完成
+### 语言：python
+### 运行环境：pycharm community edition 2022.2.3
+### 运行结果：
+![project10.png](https://s2.loli.net/2023/08/04/VaK8bthqCNuL6BW.png)
+
+## project11  
+### 语言：python
+### 运行环境：pycharm community edition 2022.2.3
+### 实验步骤：
+按照sm2的rfc6979步骤编写代码，采用推荐参数，其中m选取1234567890ABCDEF0987654321ABCDEF123456，然后加解密验证，得到结果为成功
+### 运行结果：
+![project11.png](https://s2.loli.net/2023/08/04/Cb8WeDSgtvVHM7i.png)
+
+## project18  
+### 语言：python
+### 运行环境：pycharm community edition 2022.2.3
+### 实验步骤：
+先创建一个测试交易地址，然后获取一些bitcoin，到blockcryher这个网站上看一下交易的记录，然后用request模块直接把它爬取下来得到tx 文档
+### 运行结果：
+![project18.png](https://s2.loli.net/2023/08/04/E8Pjxk5FvXzLl2G.png)
+
 ## project17 
 ### 实验结论
 该实验主要通过查阅资料获得相关比较，综合比较下来，FireFox相对来说会更安全一点。
+
 ## project19  
 ### 椭圆曲线数字签名算法
 椭圆曲线数字签名算法（Elliptic Curve Digital Signature Algorithm，ECDSA）是一种基于椭圆曲线密码学的数字签名算法，用于在计算机和通信系统中对数据进行认证和保护完整性。  
