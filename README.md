@@ -36,11 +36,6 @@ SM3算法采用Merkle-Damgard结构，在处理消息时，首先将消息进行
 主要是减少计算和存储W'时的存取操作。 在测试中，优化也提高了算法的执行速度
 ### 运行结果：
 ![protect4.png](https://s2.loli.net/2023/08/04/eaopgN4c7kPWULX.png)
-未加密的明文:cuirujin加密中...  
-SM3加密后的密文:6e0f9e14344c5406aOcf5a3b4dfb665f87f4a771a31f7edbb5c72874a32b29571加密时间为:9.38 ms  
-解密中...  
-解密时间为:17.22 ms  
-（没插图片就图文识别了一下）  
 
 ## project5   
 ### Merkle Tree
@@ -56,6 +51,7 @@ SM3加密后的密文:6e0f9e14344c5406aOcf5a3b4dfb665f87f4a771a31f7edbb5c72874a3
 节省存储空间：由于梅克尔树是树状结构，它可以将大量数据用较小的根哈希值代表，节省了存储空间。  
 在区块链中，梅克尔树被广泛用于验证区块的交易数据是否被篡改。如果根哈希值与区块头中的哈希值匹配，就意味着整个区块的数据是完整和正确的，否则，需要对区块进行重新验证或者从其他节点请求正确的数据。这种特性使得梅克尔树成为区块链中重要的数据结构之一。  
 ### 运行结果：  
+![protect5.png](https://s2.loli.net/2023/08/04/HAjhU7gcBSpNxzb.png)
 给定message="Hello!This is Yanji123.I'm writing a merkle tree!"，可以得到一个正确的Merkle Tree.
 ## project8  
 ### AES
@@ -90,7 +86,7 @@ c = a XOR b = {0xBB, 0x99, 0xFF, ..., 0x77, 0x77}
 该指令在许多计算密集型应用中很有用，例如图像处理、加密算法等，因为它可以高效地执行并行按位异或操作，从而加快数据处理速度。  
 ### 运行结果：
 运行过程中了解到，在VS中虽然有相对应的ARM的头文件，但是并不能正常运行，与同学沟通后，使用ARM64 msvc编译器尝试编译，在设置好配置管理器后，运行结果如下，成功编译。
-
+![project8.png](https://s2.loli.net/2023/08/04/oLI1nE4XbPSwRK3.png)
 ## project9  
 ## project17  
 
