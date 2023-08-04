@@ -88,8 +88,9 @@ c = a XOR b = {0xBB, 0x99, 0xFF, ..., 0x77, 0x77}
 运行过程中了解到，在VS中虽然有相对应的ARM的头文件，但是并不能正常运行，与同学沟通后，使用ARM64 msvc编译器尝试编译，在设置好配置管理器后，运行结果如下，成功编译。
 ![project8.png](https://s2.loli.net/2023/08/04/oLI1nE4XbPSwRK3.png)
 ## project9  
-## project17  
-
+## project17 
+### 实验结论
+该实验主要通过查阅资料获得相关比较，综合比较下来，FireFox相对来说会更安全一点。
 ## project19  
 ### 椭圆曲线数字签名算法
 椭圆曲线数字签名算法（Elliptic Curve Digital Signature Algorithm，ECDSA）是一种基于椭圆曲线密码学的数字签名算法，用于在计算机和通信系统中对数据进行认证和保护完整性。  
